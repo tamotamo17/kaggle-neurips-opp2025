@@ -1,0 +1,21 @@
+{
+  "timestamp": "20250630_143035",
+  "cv_folds": 5,
+  "available_targets": [
+    "Tg",
+    "FFV",
+    "Tc",
+    "Density",
+    "Rg"
+  ],
+  "target_scores": {
+    "Tg": 69.35897764129442,
+    "FFV": 0.01522824332531016,
+    "Tc": 0.04477829749790299,
+    "Density": 0.07154452510125711,
+    "Rg": 2.9941932298599716
+  },
+  "mean_cv_rmse": 14.496944387415772,
+  "smiles_column": "SMILES",
+  "total_targets": 5
+}
