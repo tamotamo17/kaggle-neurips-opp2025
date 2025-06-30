@@ -1,0 +1,64 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+env/
+venv/
+
+# Competition specific
+*.zip
+*.tar.gz
+
+# Data files (too large for git)
+data/*.csv
+data/*.json
+data/*.parquet
+data/*.h5
+data/*.pickle
+data/*.pkl
+
+# Model files
+models/*.pkl
+models/*.joblib
+models/*.h5
+models/*.pt
+models/*.pth
+
+# Submissions
+submissions/*.csv
+
+# Logs
+logs/
+*.log
+
+# Temporary files
+tmp/
+temp/
+
+# OS specific
+.DS_Store
+Thumbs.db
+
+# Kaggle API credentials
+.kaggle/
+kaggle.json
+
+# Optuna studies
+optuna_studies/
+*.db
+
+# IDE
+.vscode/
+.idea/
+
+# Jupyter
+.ipynb_checkpoints
+
+# UV
+.uv_cache/
